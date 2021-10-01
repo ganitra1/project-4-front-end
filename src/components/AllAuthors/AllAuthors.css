@@ -1,0 +1,11 @@
+
+input[type="submit" i] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: rgb(253, 236, 236);
+    
+}

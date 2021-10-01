@@ -1,0 +1,73 @@
+
+.App {
+  text-align: center;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 35px;
+  color:coral;
+  
+ -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color :gray ;
+  font-style: italic;
+  background-image: url('Images/Books.jpeg');
+  background-position: center;
+  background-size: cover;
+  height:150vh;
+  
+}
+h1{
+padding-top: 150px;
+}
+
+a:-webkit-any-link {
+  color:white;
+  font-size: 40px;
+ 
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color :black ;
+text-decoration:underline;
+text-decoration-thickness: 0px;
+}
+input{
+  color:red;
+  font-size: 20px;
+}
+form{
+  box-sizing: content-box;
+}
+.AuthorDetail h2{
+  color:crimson;
+  font-size: 55px;
+ font-style: normal;
+ -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color :white ;
+}
+.AuthorDetail h3{
+  color:rgb(40, 190, 235);
+  font-style:inherit;
+  font-size: 55px;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration-color: white;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  
+}
+.AuthorDetail li{
+  color:rgb(242, 245, 67);
+  font-size: 60px;
+  margin-left: 100px;
+}
+.AuthorDetail button{
+  background-color: lightgreen;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10px;
+}
+.AuthorDetail marker{
+  margin-left: 100px;
+}
+.AllAuthors li{
+  color:white;
+  margin-left: 40px;
+
+}
+
