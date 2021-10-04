@@ -12,8 +12,8 @@ class App extends Component {
   constructor() {
     super();
 
-    this.apiurl = 'http://localhost:3000/api/authors';
-
+    // this.apiurl = 'http://localhost:3000/api/authors';
+this.apiurl = 'https://authorbookapp.herokuapp.com/api/authors';
     this.state = {
       authors: [],
     };
